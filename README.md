@@ -1,59 +1,38 @@
 # UTC-NF16
 
-Ce dépôt contient mes TD, TP et annales d'examen machine de l'UV **NF16** de l'UTC (algorithmique et structures de données en C).
+Algorithmique et structures de données en C — mes TD, TP et annales d'examen machine de l'UV **NF16** de l'UTC. Tous les sujets sont fournis en PDF dans [`Sujets/`](Sujets).
 
-On y suit la progression du semestre : premiers programmes, pointeurs et chaînes de caractères, structures, listes chaînées, analyse de complexité, puis piles et files. Côté TP : un jeu du pendu, de la récursivité et du calcul matriciel, une gestion d'électeurs en listes chaînées, et un petit moteur d'analyse de texte (découpage en phrases, occurrences et positions de mots) accompagné de son rapport. Les annales corrigées (A19, P22) vont jusqu'aux arbres binaires de recherche et aux piles doublement chaînées.
+## Travaux dirigés
 
-Les sujets sont disponibles en PDF dans [`Sujets/`](./Sujets).
+| | Au programme |
+|---|---|
+| **[TD1](TD/TD1)** | Prise en main du C : variables, entrées/sorties, premiers exercices |
+| **[TD2](TD/TD2)** | Fonctions, pointeurs, tableaux et chaînes de caractères (`swap`, `my_strlen`…) |
+| **[TD3](TD/TD3)** | Structures et types personnalisés |
+| **[TD4](TD/TD4)** | Listes chaînées : construction et parcours |
+| **[TD5](TD/TD5)** | Analyse de complexité en notation O |
+| **[TD6](TD/TD6)** | Piles et files, en pseudo-code |
 
-## 🗂️ - Arborescence du projet
+Les sujets couvrent les TD 1 à 12 ; ceux qui n'ont pas de dossier ont été traités sur papier.
 
-. \
-├── 📄 [LICENSE](./LICENSE) \
-├── 📄 [README.md](./README.md) \
-├── 📁 [Sujets](./Sujets) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [Sujets_TD](./Sujets/Sujets_TD) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 [Sujets_TP](./Sujets/Sujets_TP) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-├── 📁 [TD](./TD) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD1](./TD/TD1) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD2](./TD/TD2) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD3](./TD/TD3) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD4](./TD/TD4) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD5](./TD/TD5) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 [TD6](./TD/TD6) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-└── 📁 [TP](./TP) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [examen machine](./TP/examen%20machine) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [rapport](./TP/rapport) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TP1](./TP/TP1) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TP2](./TP/TP2) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TP3](./TP/TP3) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 [TP4](./TP/TP4) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-17 directories, 2 files
+## Travaux pratiques
 
-> Arborescence générée avec [markdown-tree](https://github.com/theodubus/markdown-tree)
+| | Au programme |
+|---|---|
+| **[TP1](TP/TP1)** | Jeu du pendu |
+| **[TP2](TP/TP2)** | Récursivité (factorielle, Fibonacci) et calcul matriciel |
+| **[TP3](TP/TP3)** | Gestion d'une liste d'électeurs en listes chaînées : ajout, recherche, suppression |
+| **[TP4](TP/TP4)** | Analyse de texte : découpage en phrases, occurrences et positions des mots — avec [rapport](TP/rapport) |
 
-## 👨‍💻 - Langage utilisé
+## Annales d'examen machine
 
-- [C](https://fr.wikipedia.org/wiki/C_(langage))
+| | Au programme |
+|---|---|
+| **[A19](TP/examen%20machine/A19_1)** | Piles |
+| **[P22 №1](TP/examen%20machine/P22_1)** | Listes chaînées et arbres |
+| **[P22 №2](TP/examen%20machine/P22_2)** | Listes chaînées et arbres binaires |
+| **[Sujet blanc](TP/examen%20machine/examen_machine)** | Arbres binaires de recherche, piles doublement chaînées |
 
-## 📝 - Licence
+## Licence
 
-[MIT](LICENSE)
-
-## 📔 - Auteur
-
--  **[theodubus](https://github.com/theodubus/)**
+[MIT](LICENSE) — [theodubus](https://github.com/theodubus/)
