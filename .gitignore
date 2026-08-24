@@ -1,0 +1,5 @@
+# Artefacts de compilation C
+*.o
+*.out
+*.exe
+a.out
